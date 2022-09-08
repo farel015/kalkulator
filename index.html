@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <table class="second-table">
+        <tr>
+          <td colspan="4" class="total"><span id="kalkulatorasik"></span></td>
+        </tr>
+        <tr>
+          <td><button onclick="resetkalkulator()" class="alat">AC</button></td>
+          <td><button onclick="minusplus()" class="alat">+/-</button></td>
+          <td><button onclick="persen()" class="alat">%</button></td>
+          <td><button onclick="pembagian()" class="tomboloperasi">/</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="sec(7)">7</button></td>
+          <td><button onclick="sec(8)">8</button></td>
+          <td><button onclick="sec(9)">9</button></td>
+          <td><button onclick="perkalian()" class="tomboloperasi">X</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="sec(4)">4</button></td>
+          <td><button onclick="sec(5)">5</button></td>
+          <td><button onclick="sec(6)">6</button></td>
+          <td><button onclick="pengurangan()" class="tomboloperasi">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="sec(1)">1</button></td>
+          <td><button onclick="sec(2)">2</button></td>
+          <td><button onclick="sec(3)">3</button></td>
+          <td><button onclick="penambahan()" class="tomboloperasi">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="sec(0)" class="zero">0</button></td>
+          <td><button onclick="koma()">,</button></td>
+          <td><button onclick="hasil()" class="tomboloperasi">=</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
